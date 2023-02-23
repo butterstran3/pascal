@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { IoLogoApple } from 'react-icons/io';
 import { AiOutlineMenu } from 'react-icons/ai';
 import {RxCross1} from 'react-icons/rx';
+import logo from '../../assets/logo_white.svg';
 
 const Nav = () => {
 
@@ -33,7 +34,7 @@ const Nav = () => {
                 <div className="empty_container"></div>
                 <div className="mobile-nav_contents">
                     <NavLink className="mobile-nav_content" to="/" end>
-                        <IoLogoApple />
+                        <img className="logo" src={logo}/>
                     </NavLink>
                 </div>
                 <div className="btn_container">
@@ -48,7 +49,7 @@ const Nav = () => {
                     <div className="empty_container"></div>
                     <div className="mobile-nav_contents">
                         <NavLink className="mobile-nav_content" to="/" end>
-                            <IoLogoApple />
+                            <img className="logo" src={logo}/>
                         </NavLink>
                     </div>
                     <div className="btn_container">
@@ -78,8 +79,8 @@ const Nav = () => {
         return (
             <nav className="container nav_container">
                 <div className="nav_logo">
-                    <NavLink className="nav_content nav_title" to="/" end>
-                        <IoLogoApple />
+                    <NavLink className="" to="/" end>
+                        <img className="logo" src={logo}/>
                     </NavLink>
                 </div>
                 <div className="nav_contents">

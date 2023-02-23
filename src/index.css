@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -29,7 +30,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     background: var(--color-white);
     color: var(--color-black);
 }
@@ -41,6 +42,24 @@ body.home {
 }
 
 body.contact {
+    background-image: url('./assets/contact_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.about {
+    background-image: url('./assets/contact_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.testimonials {
+    background-image: url('./assets/contact_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.faqs {
     background-image: url('./assets/contact_background.jpg');
     background-size: cover;
     background-attachment: fixed;
