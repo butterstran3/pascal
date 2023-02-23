@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import './questions.css';
 
 const Questions = ({faq, index, toggleFAQ}) => {

@@ -30,6 +30,11 @@ const Contact = () => {
                     <BsFillCaretDownFill />
                 </a>
             </div>
+            <div className="discord-btn_container">
+                <a className="discord_btn" href="https://discord.gg/qxHEtGrT4A">
+                    Join our Discord
+                </a>
+            </div>
         </div>
     )
 }

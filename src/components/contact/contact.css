@@ -50,6 +50,29 @@
     color: var(--color-variant);
 }
 
+.discord-btn_container {
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.discord_btn {
+    width: 230px;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: var(--transition);
+    align-items: center;
+    background: var(--color-white);
+    font-size: 1.5rem;
+}
+
+.discord_btn:hover {
+    color: var(--color-white);
+    background: #5865F2;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .home_container {
@@ -67,6 +90,10 @@
 
     .type-writer_container p {
         font-size: 1.3rem;
+    }
+
+    .discord-btn_container {
+        padding: 4% 5%;
     }
 }
 
