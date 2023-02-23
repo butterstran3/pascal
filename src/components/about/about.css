@@ -100,6 +100,7 @@
         padding-top: 0;
         align-items: center;
         padding-top: 3rem;
+        height: 800px;
     }
 
     .image_container {
@@ -128,5 +129,6 @@
         padding-top: 0;
         align-items: center;
         padding: 2rem 0;
+        height: 800px;
     }
 }
