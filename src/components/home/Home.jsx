@@ -7,11 +7,12 @@ const Home = () => {
         <div className="homepage_container">
             <div className="home-text_container">
                 <div className="home_text">
-                    <h1>WE ANSWER THE MOST INTERESTING QUESTIONS IN </h1>
-                    <h1 id="colored_text">SPORT.</h1>
+                    <h1>Bet faster,</h1>
+                    <h1>smarter.</h1>
+                    {/* <h1 id="colored_text">smarter.</h1> */}
                 </div>
                 <div className="home_button">
-                    <a className="discord_btn" href="https://discord.gg/qxHEtGrT4A">
+                    <a className="discord_btn" href="https://discord.gg/qxHEtGrT4A" >
                         JOIN OUR DISCORD
                     </a>
                 </div>

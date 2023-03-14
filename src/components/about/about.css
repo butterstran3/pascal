@@ -27,10 +27,13 @@
 .info_content {
     font-family: 'Inter', sans-serif;
     line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .about_image {
     padding: 6rem 0 0 3rem;
+    max-width: 30%;
 }
 
 .about_image img {

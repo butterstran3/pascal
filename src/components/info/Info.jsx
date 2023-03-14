@@ -6,10 +6,10 @@ const Info = () => {
         <div id="info" className="info_container">
             <div className="intro_info">
                 <p>
-                    We take analysis of sport into a completely different league. 
+                Win smarter and faster with our data-driven insights. Bet confidently with timely analysis and maximize your profits.
                 </p>
                 <p>
-                    Through a combination of innovation and critical thought, we make the best sporting predictions in the world.
+                    Through a combination of data analysis and critical thought, we make the best predictions for you.
                 </p>
             </div>
         </div>

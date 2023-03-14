@@ -5,7 +5,7 @@ import { SiDiscord } from 'react-icons/si';
 const Footer = () => {
     return (
         <div className="product_info">
-            <h1>Join our Discord</h1>
+            <h1>JOIN OUR DISCORD</h1>
             <a className="footer-discord_btn" href="https://discord.gg/qxHEtGrT4A">
                 <SiDiscord />
             </a>

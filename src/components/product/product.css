@@ -12,9 +12,16 @@
 }
 
 .product_heading h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
     padding-bottom: 1rem;
+}
+
+.product_subheading p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 4rem 1rem 4rem;
+    text-align: center;
 }
 
 .product_container {
