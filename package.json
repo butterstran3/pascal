@@ -1,6 +1,5 @@
 {
   "name": "pascal",
-  "homepage": "http://butterstran3.github.io/pascal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
