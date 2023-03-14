@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from '../product/Product';
-import Pricing from '../pricing/Pricing';
+import Footer from '../footer/Footer';
 import { useEffect } from 'react';
 
 const ProductPage = () => {
@@ -14,7 +14,7 @@ const ProductPage = () => {
     return (
         <>
             <Product />
-            <Pricing />
+            <Footer />
         </>
     )
 }

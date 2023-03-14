@@ -1,22 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+.homepage_container {
+    width: 100%;
+    height: 95vh;
+}
+
+.home_text {
+    font-size: 50px;
+    color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 9%;
+}
+
+.home_text h1 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.home_button a {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 2% 0% 2% 0%;
+    width: 30%; /* HOW TO CHANGE WIDTH OF THE BUTTON WITHOUT COOKING IT @@JIMBO*/
+}
+
+.home-text_container {
+    width: 45%;
+    float: right;
+    padding: 18% 5% 0 0%;
+}
+
+.home-discord-btn_container {
+    float: right;
+}
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .home_container {
+    .homepage_container {
         height: 92.8vh;
     }
     
     .text_container {
         padding: 25% 5% 5% 5%;
-    }
-
-    .type-writer_container {
-        padding: 0 5%;
-        line-height: 2rem;
-    }
-
-    .type-writer_container p {
-        font-size: 1.3rem;
     }
 
     .discord-btn_container {
@@ -25,7 +50,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .home_container {
+    .homepage_container {
         height: 93.6vh;
     }
 
@@ -48,7 +73,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .home_container h1 {
+    .homepage_container h1 {
         font-size: 2rem;
     }
     

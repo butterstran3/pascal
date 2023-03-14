@@ -1,4 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.product_heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    color: var(--color-white);
+}
+
+.product_heading h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.product_subheading p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 4rem 1rem 4rem;
+    text-align: center;
+}
+
+.product_container {
+    width: 100%;
+    height: 95vh;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 50px;
+}
+
+.product {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    padding: 1.5%;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: var(--color-primary);
+}
+
+.product ul {
+    list-style-type: none;
+    padding: 1.5rem 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.product ul, li {
+    padding: 1rem;
+    color: var(--color-primary);
+}
+
+.product h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.product_price {
+    display: flex;
+    flex-direction: row;
+}
+
+.product_price h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.product_price h3 {
+    font-weight: 300;
+    align-self: flex-end;
+    padding-bottom: 0.4rem;
+    padding-left: 0.5rem;
+}
+
+.coming-soon_container {
+    padding-top: 1rem;
+}
+
+.product-btn_container {
+    width: 40%;
+}
+
+.product_btn {
+    width: 100%;
+    height: 50px;
+    background: #EFEFEF;
+    font-family: 'Inter', sans-serif;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+.product_btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.coming-soon_container {
+    font-weight: 600;
+}
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {

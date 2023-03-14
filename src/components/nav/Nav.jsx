@@ -59,20 +59,11 @@ const Nav = () => {
                     <div className="modal-nav_content">
                         <NavLink className="nav_content" to="/" onClick={() => setMobileNav(!mobileNav)}>Home</NavLink>
                     </div>
-                    <div className='modal-nav_content mobile-about'>
-                        <NavLink className="nav_content" to="/about" onClick={() => setMobileNav(!mobileNav)}>About</NavLink>
-                    </div>
                     <div className='modal-nav_content mobile-products'>
                         <NavLink className="nav_content" to="/products" onClick={() => setMobileNav(!mobileNav)}>Products</NavLink>
                     </div>
-                    <div className="modal-nav_content mobile-testimonials">
-                        <NavLink className="nav_content" to="/testimonials" onClick={() => setMobileNav(!mobileNav)}>Testimonials</NavLink>
-                    </div>
-                    <div className="modal-nav_content mobile-contact">
-                        <NavLink className="nav_content" to="/contact" onClick={() => setMobileNav(!mobileNav)}>Contact</NavLink>
-                    </div>
-                    <div className="mobile-faq">
-                        <NavLink className="nav_content" to="/faqs" onClick={() => setMobileNav(!mobileNav)}>FAQs</NavLink>
+                    <div className='modal-nav_content mobile-about'>
+                        <NavLink className="nav_content" to="/about" onClick={() => setMobileNav(!mobileNav)}>About Us</NavLink>
                     </div>
                 </div>
             </div>
@@ -86,12 +77,9 @@ const Nav = () => {
                     </NavLink>
                 </div>
                 <div className="nav_contents">
-                    <NavLink className="nav_content" to="/">Home</NavLink>
-                    <NavLink className="nav_content" to="/about">About</NavLink>
-                    <NavLink className="nav_content" to="/products">Products</NavLink>
-                    <NavLink className="nav_content" to="/testimonials">Testimonials</NavLink>
-                    <NavLink className="nav_content" to="/contact">Contact</NavLink>
-                    <NavLink className="nav_content" to="/faqs">FAQs</NavLink>
+                    <NavLink className="nav_content" to="/">HOME</NavLink>
+                    <NavLink className="nav_content" to="/products">PRODUCTS</NavLink>
+                    <NavLink className="nav_content" to="/about">ABOUT US</NavLink>
                 </div>
             </nav>
         )
