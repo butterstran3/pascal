@@ -5,6 +5,7 @@ import ContactPage from './components/pages/ContactPage';
 import AboutPage from './components/pages/AboutPage';
 import FaqsPage from './components/pages/FaqsPage';
 import TestimonialsPage from './components/pages/TestimonialsPage';
+import ProductPage from './components/pages/ProductPage';
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path='/about' element={<AboutPage />} />
                 <Route path='/testimonials' element={<TestimonialsPage />} />
                 <Route path='/faqs' element={<FaqsPage />} />
+                <Route path='/products' element={<ProductPage />} />
             </Routes>
         </>
     )

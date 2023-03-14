@@ -48,7 +48,7 @@ const Nav = () => {
                 <nav className="mobile-nav_container">
                     <div className="empty_container"></div>
                     <div className="mobile-nav_contents">
-                        <NavLink className="mobile-nav_content" to="/" end>
+                        <NavLink className="mobile-nav_content" to="/" onClick={() => setMobileNav(!mobileNav)} end>
                             <img className="logo" src={logo}/>
                         </NavLink>
                     </div>
@@ -58,19 +58,19 @@ const Nav = () => {
                 </nav>
                 <div className='mobile-pages_container'>
                     <div className='mobile-about'>
-                        <NavLink className="nav_content" to="/about">About</NavLink>
+                        <NavLink className="nav_content" to="/about" onClick={() => setMobileNav(!mobileNav)}>About</NavLink>
                     </div>
                     <div className='modal-nav_content mobile-products'>
-                        <NavLink className="nav_content" to="/products">Products</NavLink>
+                        <NavLink className="nav_content" to="/products" onClick={() => setMobileNav(!mobileNav)}>Products</NavLink>
                     </div>
                     <div className="modal-nav_content mobile-testimonials">
-                        <NavLink className="nav_content" to="/testimonials">Testimonials</NavLink>
+                        <NavLink className="nav_content" to="/testimonials" onClick={() => setMobileNav(!mobileNav)}>Testimonials</NavLink>
                     </div>
                     <div className="modal-nav_content mobile-contact">
-                        <NavLink className="nav_content" to="/contact">Contact</NavLink>
+                        <NavLink className="nav_content" to="/contact" onClick={() => setMobileNav(!mobileNav)}>Contact</NavLink>
                     </div>
                     <div className="mobile-faq">
-                        <NavLink className="nav_content" to="/faqs">FAQs</NavLink>
+                        <NavLink className="nav_content" to="/faqs" onClick={() => setMobileNav(!mobileNav)}>FAQs</NavLink>
                     </div>
                 </div>
             </div>

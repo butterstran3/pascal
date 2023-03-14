@@ -36,6 +36,7 @@ const Carousel = () => {
                 modules={[Pagination]}
                 spaceBetween={20}
                 slidesPerView={1}
+                loop={true}
                 pagination={{ clickable: true }}>
                 {
                     data.map(({ id, avatar, name, review }) => {

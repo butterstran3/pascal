@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.home_container {
+    width: 100%;
+    height: 95vh;
+    background: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home_container h1 {
+    font-size: 4.5rem;
+    color: var(--color-white);
+}
+
+.text_container {
+    padding: 18% 10% 0% 10%;
+}
+
+.type-writer_container {
+    padding: 0 10%;
+    line-height: 1.5rem;
+}
+
+#colored_text {
+    color: var(--color-variant);
+}
+
+.text_container {
+    padding-bottom: 2rem;
+}
+
+.type-writer_container p {
+    color: var(--color-white);
+    font-size: 1.3rem;
+}
+
+.down-btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 3%;
+}
+
+.down-btn_container a {
+    font-size: 2.5rem;
+}
+
+.down-btn_container a:hover {
+    color: var(--color-variant);
+}
+
+.discord-btn_container {
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.discord_btn {
+    width: 230px;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: var(--transition);
+    align-items: center;
+    background: var(--color-white);
+    font-size: 1.5rem;
+}
+
+.discord_btn:hover {
+    color: var(--color-white);
+    background: #5865F2;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .home_container {
+        height: 92.8vh;
+    }
+    
+    .text_container {
+        padding: 25% 5% 5% 5%;
+    }
+
+    .type-writer_container {
+        padding: 0 5%;
+        line-height: 2rem;
+    }
+
+    .type-writer_container p {
+        font-size: 1.3rem;
+    }
+
+    .discord-btn_container {
+        padding: 4% 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home_container {
+        height: 93.6vh;
+    }
+
+    .home_container h1 {
+        font-size: 2.5rem;
+    }
+    
+    .text_container {
+        padding: 35% 5% 5% 5%;
+        line-height: 3rem;
+    }
+
+    .type-writer_container {
+        padding: 0 5%;
+    }
+
+    .type-writer_container p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home_container h1 {
+        font-size: 2rem;
+    }
+    
+    .text_container {
+        padding: 20% 5% 5% 5%;
+        line-height: 3rem;
+    }
+
+    .type-writer_container {
+        padding: 5%;
+    }
+
+    .type-writer_container p {
+        font-size: 1rem;
+    }
+}
