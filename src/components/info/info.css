@@ -1,51 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .info_container {
     width: 100vw;
-    height: 50vh;
-    font-family: 'Josefin Sans', sans-serif;
+    height: 360px;
 }
 
 .intro_info {
     width: 100%;
-    height: 400px;
-    background: #144272;
+    height: 360px;
+    background: var(--color-white);
     text-align: center;
-    color: var(--color-white);
+    color: var(--color-primary);
     font-size: 1.5rem;
-    padding: 9% 5%;
+    padding: 8% 5%;
     line-height: 2.5rem;
 }
 
 .product_info {
     width: 100%;
-    height: 80%;
-    display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
-    gap: 5vw;
-    background: var(--color-white);
-    padding-left: 4%;
-    justify-content: center;
-}
-
-.product {
+    height: 250px;
+    background: var(--color-primary);
+    color: var(--color-white);
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
-    height: 40vh;
-    width: 25vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.product_heading {
-    width: 25vw;
-    padding-bottom: 5%;
+.product_info h1 {
+    font-weight: 400;
+    padding-bottom: 1%;
 }
 
-.product_description {
-    width: 25vw;
+.product_info p {
+    font-weight: 200;
+}
+
+.footer-discord_btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: var(--color-primary);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    font-size: 1.8rem;
     text-align: center;
-    line-height: 1.5rem;
+}
+
+.footer-discord_btn:hover {
+    color: var(--color-white);
+    background: #5865F2;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
