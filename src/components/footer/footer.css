@@ -4,4 +4,30 @@
     padding-bottom: 2%;
 }
 
+.product_info {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    align-items: center;
+    justify-content: center;
+}
+
 /*HOW TO ALIGN THE DISCORD LOGO WITH THE TEXT @@JIMBO*/
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .product_info {
+        height: 200px;
+        
+    }
+
+    .product_info h1 {
+        font-size: 2rem;
+    }
+}

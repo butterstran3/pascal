@@ -30,7 +30,6 @@ const Nav = () => {
     if (mobileActive && !mobileNav) {
         return (
             <nav className="mobile-nav_container">
-                <div className="empty_container"></div>
                 <div className="mobile-nav_contents">
                     <NavLink className="mobile-nav_content" to="/" end>
                         <img alt="logo" className="logo" src={logo}/>
@@ -45,7 +44,6 @@ const Nav = () => {
         return (
             <div className="modal_container">
                 <nav className="mobile-nav_container">
-                    <div className="empty_container"></div>
                     <div className="mobile-nav_contents">
                         <NavLink className="mobile-nav_content" to="/" onClick={() => setMobileNav(!mobileNav)} end>
                             <img alt="logo" className="logo" src={logo}/>

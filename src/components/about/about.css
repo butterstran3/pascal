@@ -19,6 +19,10 @@
     padding: 6rem 3rem 0 0;
 }
 
+.company_info p {
+    line-height: 2rem;
+}
+
 .info_title {
     font-family: 'Lato', sans-serif;
     padding-bottom: 2rem;
@@ -32,8 +36,10 @@
 }
 
 .about_image {
+    display: flex;
     padding: 6rem 0 0 3rem;
-    max-width: 30%;
+    width: 40%;
+    height: 80%;
 }
 
 .about_image img {
@@ -42,64 +48,65 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .image_container {
-        width: 45%;
-        padding-top: 6rem;
+    .about_container {
+        height: 1400px;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
-    .about-info_container {
-        width: 45%;
-        font-size: 15px;
+    .company_info {
+        width: 80%;
+        padding: 0;
+        text-align: center;
+        height: 30%;
     }
 
-    .light_container {
-        height: 600px;
+    .about_image {
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        width: 80%;
+        padding: 50px 0 100px 0;
     }
 
-    .dark_container {
-        height: 600px;
+    .about_image img {
+        height: 100%;
+        width: 100%;
     }
 
-    .title_container {
-        padding-bottom: 5rem;
+    .company_info p {
+        line-height: 2.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .light_container {
-        flex-direction: column;
-        padding-top: 0;
+    .about_container {
+        height: 1400px;
+        flex-direction: column-reverse;
         align-items: center;
-        padding-top: 3rem;
-        height: 800px;
     }
 
-    .image_container {
-        width: 90%;
-        height: 200px;
-        padding-top: 0;
-    }
-
-    .about-info_container {
-        width: 90%;
-        height: 450px;
-        padding-top: 2rem;
-    }
-
-    .title_container h1 {
-        font-size: 2rem;
-    }
-
-    .title_container {
+    .company_info {
+        width: 80%;
         padding: 0;
-        height: 50px;
+        text-align: center;
+        height: 60%;
     }
 
-    .dark_container {
-        flex-direction: column;
-        padding-top: 0;
+    .about_image {
+        width: 80%;
+        justify-content: center;
         align-items: center;
-        padding: 2rem 0;
-        height: 800px;
+        height: 500px;
+        padding: 3rem 0;
+    }
+
+    .about_image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .company_info p {
+        line-height: 2.5rem;
     }
 }

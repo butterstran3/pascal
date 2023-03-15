@@ -116,66 +116,64 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .home_container {
-        height: 92.8vh;
+    .product_container {
+        height: 1700px;
+    }
+
+    .product_heading h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+
+    .product_subheading p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 1rem 3rem 0 3rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .product_table {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        gap: 70px;
     }
     
-    .text_container {
-        padding: 25% 5% 5% 5%;
-    }
-
-    .type-writer_container {
-        padding: 0 5%;
-        line-height: 2rem;
-    }
-
-    .type-writer_container p {
-        font-size: 1.3rem;
-    }
-
-    .discord-btn_container {
-        padding: 4% 5%;
+    .product {
+        width: 70%;
+        padding: 1rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .home_container {
-        height: 93.6vh;
+    .product_container {
+        height: 1800px;
     }
 
-    .home_container h1 {
-        font-size: 2.5rem;
+    .product_heading h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+
+    .product_subheading p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 2rem;
+        padding: 1rem 1.5rem 0 1.5rem;
+        text-align: center;
+    }
+
+    .product_table {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20%;
+        gap: 70px;
     }
     
-    .text_container {
-        padding: 35% 5% 5% 5%;
-        line-height: 3rem;
-    }
-
-    .type-writer_container {
-        padding: 0 5%;
-    }
-
-    .type-writer_container p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .home_container h1 {
-        font-size: 2rem;
-    }
-    
-    .text_container {
-        padding: 20% 5% 5% 5%;
-        line-height: 3rem;
-    }
-
-    .type-writer_container {
-        padding: 5%;
-    }
-
-    .type-writer_container p {
-        font-size: 1rem;
+    .product {
+        width: 85%;
     }
 }
