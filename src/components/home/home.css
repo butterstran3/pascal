@@ -21,7 +21,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 2% 0% 2% 0%;
-    width: 175px; /* HOW TO CHANGE WIDTH OF THE BUTTON WITHOUT COOKING IT @@JIMBO*/
+    width: 220px; /* HOW TO CHANGE WIDTH OF THE BUTTON WITHOUT COOKING IT @@JIMBO*/
 }
 
 .home-text_container {
@@ -52,7 +52,7 @@
     }
 
     .home_button a {
-        width: 60%;
+        width: 220px;
     }
 }
 
@@ -73,6 +73,6 @@
     }
 
     .home_button a {
-        width: 80%;
+        width: 200px;
     }
 }
