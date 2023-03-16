@@ -16,7 +16,8 @@
 
 .nav_contents {
     display: flex;
-    width: 25%;
+    height: 50px;
+    width: 35%;
     text-align: center;
     padding-top: 0.5rem;
     padding-right: 4%;
