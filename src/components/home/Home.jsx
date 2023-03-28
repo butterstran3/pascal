@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BsFillCaretDownFill } from 'react-icons/bs';
 import "./home.css";
 
 const Home = () => {
+    
     return (
         <div className="homepage_container">
             <div className="home-text_container">

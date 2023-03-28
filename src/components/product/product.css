@@ -11,10 +11,15 @@
     color: var(--color-white);
 }
 
+.product_background {
+    background: #393E46;
+}
+
 .product_heading h1 {
     font-size: 4rem;
     font-weight: 800;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 .product_subheading p {
@@ -26,11 +31,13 @@
 
 .product_container {
     width: 100%;
-    height: 95vh;
-    background: transparent;
+    height: 100vh;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(180deg, #00305B 0%, rgba(35, 108, 173, 0.72) 60%, rgba(187, 223, 255, 0.45) 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .product_table {
@@ -149,7 +156,8 @@
 
 @media screen and (max-width: 600px) {
     .product_container {
-        height: 1800px;
+        height: 1900px;
+        padding: 2rem 0;
     }
 
     .product_heading h1 {
