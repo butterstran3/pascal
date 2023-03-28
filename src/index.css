@@ -36,13 +36,13 @@ body {
 
 body.home {
     /* @@JIMBO MOVE THE BACKGROUND TO THE LEFT MORE - CAN YOU LEFT ALIGN? OTHERWISE CROP IMAGE */
-    background-image: url('./assets//background.jpg');
+    background-image: url('./assets//background_crop.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 body.contact {
-    background-image: url('./assets/contact_background.jpg');
+    background-image: url('./assets/background_crop.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -54,13 +54,13 @@ body.about {
 }
 
 body.testimonials {
-    background-image: url('./assets/contact_background.jpg');
+    background-image: url('./assets/background_crop.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 body.faqs {
-    background-image: url('./assets/contact_background.jpg');
+    background-image: url('./assets/background_crop.jpg');
     background-size: cover;
     background-attachment: fixed;
 }

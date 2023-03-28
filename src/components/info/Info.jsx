@@ -6,10 +6,7 @@ const Info = () => {
         <div id="info" className="info_container">
             <div className="intro_info">
                 <p>
-                Win smarter and faster with our data-driven insights. Bet confidently with timely analysis and maximize your profits.
-                </p>
-                <p>
-                    Through a combination of data analysis and critical thought, we make the best predictions for you.
+                Discover the power of EV betting. Make informed choices using Expected Value, optimize your bets, and enjoy consistent long-term gains. Experience the EV betting edge now.
                 </p>
             </div>
         </div>

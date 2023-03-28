@@ -20,7 +20,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                49.00
+                                49
                             </h2>
                             <h3>
                                 /per week
@@ -43,17 +43,14 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                -
+                                190
                             </h2>
                             <h3>
-                                /per week
+                                /per month
                             </h3>
                         </div>
                         <ul>
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
+                            <li>10% discount</li>
                         </ul>
                         <div className="coming-soon_container">
                             <p>COMING SOON</p>
@@ -65,17 +62,14 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                -
+                                2000
                             </h2>
                             <h3>
-                                /per week
+                                /per year
                             </h3>
                         </div>
                         <ul>
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
+                            <li>20% discount</li>
                         </ul>
                         <div className="coming-soon_container">
                             <p>COMING SOON</p>
