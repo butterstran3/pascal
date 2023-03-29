@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from '../product/Product';
 import Footer from '../footer/Footer';
+import Form from '../form/Form';
 import { useEffect } from 'react';
 
 const ProductPage = () => {
@@ -14,6 +15,7 @@ const ProductPage = () => {
     return (
         <>
             <Product />
+            <Form />
             <Footer />
         </>
     )

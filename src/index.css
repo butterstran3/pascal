@@ -48,7 +48,7 @@ body.contact {
 }
 
 body.about {
-    background: linear-gradient(180deg, #00305B 0%, rgba(35, 108, 173, 0.72) 60%, rgba(187, 223, 255, 0.45) 100%);
+    background-image: url('./assets/city_background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }

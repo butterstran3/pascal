@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../about/About';
 import Footer from '../footer/Footer';
+import Header from '../header/Header';
 import { useEffect } from 'react';
 
 const AboutPage = () => {
@@ -13,6 +14,7 @@ const AboutPage = () => {
 
     return (
         <>
+            <Header />
             <About />
             <Footer />
         </>

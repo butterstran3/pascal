@@ -8,10 +8,12 @@ const Functions = () => {
                 <h1>How it works</h1>
             </div>
             <div className='functions_content'>
-                <p>Our independent, quantitative approach to EV betting allows us to outsmart the bookies consistently.</p>
-                <p>Boasting a proven track record and delivering a 30% turnover, our advanced algorithm alerts you to lucrative EV bets, ensuring you stay ahead in the game and consistently generate profit.</p>
-                <p>Unlike bookie affliated tipping services, we focus on delivering +EV bets and educating our members to find their own +EV.</p>
-                <p>Beat the bookies today and experience the winning edge with our data-driven, unbiased system!</p>
+                <p>
+                    Our independent, quantitative approach to EV betting allows us to outsmart the bookies consistently.<br />
+                    <span>Boasting a proven track record and delivering a 30% turnover, our advanced algorithm alerts you to lucrative EV bets, ensuring you stay ahead in the game and consistently generate profit.</span><br />
+                    <span>Unlike bookie affliated tipping services, we focus on delivering +EV bets and educating our members to find their own +EV.</span><br />
+                    <span>Beat the bookies today and experience the winning edge with our data-driven, unbiased system!</span><br />
+                </p>
             </div>
             <div className='steps_heading'>
                 <h1>The simple steps to beating the Bookmakers</h1>

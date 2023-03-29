@@ -20,7 +20,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                49
+                                $49
                             </h2>
                             <h3>
                                 /per week
@@ -43,7 +43,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                190
+                                $190
                             </h2>
                             <h3>
                                 /per month
@@ -62,7 +62,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                2000
+                                $2000
                             </h2>
                             <h3>
                                 /per year
