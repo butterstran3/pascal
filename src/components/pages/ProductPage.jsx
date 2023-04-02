@@ -14,7 +14,6 @@ const ProductPage = () => {
 
     return (
         <>
-            <Product />
             <Form />
             <Footer />
         </>

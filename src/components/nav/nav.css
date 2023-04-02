@@ -3,7 +3,7 @@
     height: 10vh;
     background: transparent;
     color: black;
-    padding: 2rem;
+    padding: 0.5rem;
     justify-content: space-between;
 }
 
@@ -12,6 +12,7 @@
     width: 10%;
     text-align: center;
     padding-top: 0.5rem;
+    padding-left: 2rem;
 }
 
 .nav_contents {
@@ -19,7 +20,7 @@
     height: 50px;
     width: 500px;
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 1.2rem;
     padding-right: 4%;
     justify-content: space-between;
 }
@@ -95,7 +96,6 @@ a {
         width: 10%;
         text-align: center;
         font-size: 3rem;
-        padding-top: 8px;
     }
     
     .mobile-nav_container {
@@ -150,7 +150,6 @@ a {
     .mobile-nav_contents {
         width: 10%;
         text-align: center;
-        padding-top: 0.5%;
         font-size: 2.2rem;
     }
     

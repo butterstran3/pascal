@@ -55,8 +55,7 @@
     height: 500px;
     width: 100%;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: justify;
     font-family: 'Lato', sans-serif;
     background: #fbfbfb;
     line-height: 3rem;
@@ -64,6 +63,7 @@
 }
 
 .mission_heading {
+    text-align: center;
     padding-bottom: 3rem;
 }
 
@@ -77,8 +77,7 @@
     height: 500px;
     width: 100%;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: justify;
     font-family: 'Lato', sans-serif;
     background: #fbfbfb;
     line-height: 3rem;
@@ -88,73 +87,91 @@
 
 .focus_heading {
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .focus_content {
     padding: 0 6rem;
 }
 
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .about_container {
-        height: 1400px;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
     .company_info {
-        width: 80%;
-        padding: 0;
+        text-align: justify;
+    }
+
+    .info_title {
         text-align: center;
-        height: 30%;
     }
 
-    .about_image {
-        justify-content: center;
-        align-items: center;
+    .about_container {
+        height: 700px;
+    }
+
+    .info_title {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .info_content {
+        padding: 2rem;
+    }
+
+    .info_content p {
+        line-height: 3rem;
+    }
+
+    .mission_container {
+        height: 600px;
+        text-align: justify;
+    }
+
+    .mission_content {
+        padding: 0 3rem;
+    }
+
+    .focus_container {
         height: 800px;
-        width: 80%;
-        padding: 50px 0 100px 0;
+        text-align: justify;
     }
 
-    .about_image img {
-        height: 100%;
-        width: 100%;
-    }
-
-    .company_info p {
-        line-height: 2.5rem;
+    .focus_content {
+        padding: 0 3rem;
     }
 }
 
 @media screen and (max-width: 600px) {
     .about_container {
-        height: 1400px;
-        flex-direction: column-reverse;
-        align-items: center;
+        height: 1100px;
     }
 
-    .company_info {
-        width: 80%;
-        padding: 0;
-        text-align: center;
-        height: 60%;
+    .info_title {
+        padding: 0 1rem 3rem 1rem;
     }
 
-    .about_image {
-        width: 80%;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
-        padding: 3rem 0;
+    .info_content {
+        padding: 2rem 1.5rem;
     }
 
-    .about_image img {
-        height: 100%;
-        width: 100%;
+    .info_content p {
+        line-height: 3rem;
     }
 
-    .company_info p {
-        line-height: 2.5rem;
+    .mission_container {
+        height: 800px;
+    }
+
+    .mission_content {
+        padding: 0 2rem;
+        font-size: 1rem;
+    }
+
+    .focus_container {
+        height: 1300px;
+    }
+
+    .focus_content {
+        padding: 0 2rem;
+        font-size: 1rem;
     }
 }

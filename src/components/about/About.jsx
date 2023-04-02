@@ -15,11 +15,8 @@ const About = () => {
                         <p>
                             At Pascal Research our mission is to empower the bettors like ourselves with the tools to be a Winning bettor.
                             We are two computer science professionals with a love for betting. Our goal now is to enable to public with the tools that we've
-                            created for ourselves. 
-                        </p>
-                        <br/>
-                        <p>
-                            Think of some nonsense @bho
+                            created for ourselves. <br />
+                            <span>Think of some nonsense @bho</span>
                         </p>
                     </div>
                 </div>
