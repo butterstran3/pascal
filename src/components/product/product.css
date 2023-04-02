@@ -119,12 +119,13 @@
 
 .coming-soon_container {
     font-weight: 600;
+    padding-bottom: 9.5rem;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .product_container {
-        height: 1700px;
+        height: 2000px;
     }
 
     .product_heading h1 {
@@ -156,7 +157,7 @@
 
 @media screen and (max-width: 600px) {
     .product_container {
-        height: 1900px;
+        height: 2200px;
         padding: 2rem 0;
     }
 

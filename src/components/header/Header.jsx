@@ -1,16 +1,16 @@
 import React, {useState, useEffect} from 'react';
 import './header.css';
 
-const Header = () => {
+const Header = (props) => {
     const [text, setText] = useState("");
     const [index, setIndex] = useState(0);
   
     useEffect(() => {
       const interval = setInterval(() => {
-        if (index === "We love munching on peanuts".length) {
+        if (index === props.title.length) {
           clearInterval(interval);
         }
-        setText(text + "We love munching on peanuts".charAt(index));
+        setText(text + props.title.charAt(index));
         setIndex(index + 1);
       }, 50);
       return () => clearInterval(interval);

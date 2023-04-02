@@ -55,6 +55,9 @@ const Product = () => {
                         <div className="coming-soon_container">
                             <p>COMING SOON</p>
                         </div>
+                        <div className="product-btn_container">
+                            <button className="product_btn">CHOOSE</button>
+                        </div>
                     </article>
                     <article className="product">
                         <h1>
@@ -73,6 +76,9 @@ const Product = () => {
                         </ul>
                         <div className="coming-soon_container">
                             <p>COMING SOON</p>
+                        </div>
+                        <div className="product-btn_container">
+                            <button className="product_btn">CHOOSE</button>
                         </div>
                     </article>
                 </div>

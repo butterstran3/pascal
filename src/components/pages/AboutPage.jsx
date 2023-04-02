@@ -12,9 +12,11 @@ const AboutPage = () => {
         };
     }, []);
 
+    const title = "We love to munch on peanuts.";
+
     return (
         <>
-            <Header />
+            <Header title={title}/>
             <About />
             <Footer />
         </>

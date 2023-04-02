@@ -52,7 +52,7 @@
 .mission_container {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 400px;
     width: 100%;
     justify-content: center;
     text-align: justify;
@@ -93,7 +93,6 @@
 .focus_content {
     padding: 0 6rem;
 }
-
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {

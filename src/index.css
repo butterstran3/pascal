@@ -35,7 +35,6 @@ body {
 }
 
 body.home {
-    /* @@JIMBO MOVE THE BACKGROUND TO THE LEFT MORE - CAN YOU LEFT ALIGN? OTHERWISE CROP IMAGE */
     background-image: url('./assets//background_crop.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -65,8 +64,8 @@ body.faqs {
     background-attachment: fixed;
 }
 
-body.products {
-    background: linear-gradient(180deg, #00305B 0%, rgba(35, 108, 173, 0.72) 60%, rgba(187, 223, 255, 0.45) 100%);
+body.services {
+    background-image: url('./assets/city_background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -76,6 +75,17 @@ body.products {
 .container {
     width: var(--container-width);
     margin: 0 auto;
+}
+
+.hr {
+    margin: auto;
+    border: 0;
+    border-top: 1px solid black;
+    overflow: visible;
+    height: 0;
+    box-sizing: content-box;
+    width: 60%;
+    align-items: center;
 }
 
 h1 {

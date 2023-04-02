@@ -2,15 +2,19 @@
 
 .info_container {
     width: 100vw;
-    height: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro_info {
     width: 100%;
     height: 360px;
-    background: var(--color-white);
+    background: var(--color-primary);
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-white);
     font-size: 1.5rem;
     padding: 8% 5%;
     line-height: 2.5rem;
@@ -26,7 +30,7 @@
     transition: var(--transition);
     align-items: center;
     justify-content: center;
-    background: var(--color-white);
+    background: #fbfbfb;
     font-size: 1.8rem;
     text-align: center;
 }
@@ -39,7 +43,7 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .info_container {
-        height: 500px;
+        height: 380px;
     }
 
     .intro_info {
@@ -54,7 +58,7 @@
 
 @media screen and (max-width: 600px) {
     .info_container {
-        height: 500px;
+        height: 350px;
     }
 
     .intro_info {

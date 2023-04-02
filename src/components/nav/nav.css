@@ -26,7 +26,10 @@
 }
 
 .nav_content {
-    padding-top: 0.5rem;
+    padding-top: 0.6rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 1rem;
 }
 
 a {
@@ -34,12 +37,13 @@ a {
 }
 
 .nav_contents a:hover {
-    color: var(--color-variant);
-    transition-delay: 100ms;
+    color: var(--color-white);
+    background: var(--color-variant);
 }
 
 .active {
     color: var(--color-variant);
+    background: var(--color-white);
 }
 
 .modal_container {
@@ -132,6 +136,10 @@ a {
         padding-top: 3rem;
         font-size: 2rem;
     }
+
+    .active {
+        background: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -184,5 +192,9 @@ a {
     .mobile-faq {
         padding-top: 2rem;
         font-size: 1.5rem;
+    }
+
+    .active {
+        background: none;
     }
 }

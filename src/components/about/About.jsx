@@ -32,6 +32,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <hr></hr>
             <div className='focus_container'>
                 <div className='focus_heading'>
                     <h1>Our Focus</h1>
