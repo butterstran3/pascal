@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './nav.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import {RxCross1} from 'react-icons/rx';
 import logo from '../../assets/logo_white.svg';
@@ -30,7 +30,6 @@ const Nav = () => {
     if (mobileActive && !mobileNav) {
         return (
             <nav className="mobile-nav_container">
-                <div className="empty_container"></div>
                 <div className="mobile-nav_contents">
                     <NavLink className="mobile-nav_content" to="/" end>
                         <img alt="logo" className="logo" src={logo}/>
@@ -45,7 +44,6 @@ const Nav = () => {
         return (
             <div className="modal_container">
                 <nav className="mobile-nav_container">
-                    <div className="empty_container"></div>
                     <div className="mobile-nav_contents">
                         <NavLink className="mobile-nav_content" to="/" onClick={() => setMobileNav(!mobileNav)} end>
                             <img alt="logo" className="logo" src={logo}/>
@@ -60,7 +58,7 @@ const Nav = () => {
                         <NavLink className="nav_content" to="/" onClick={() => setMobileNav(!mobileNav)}>Home</NavLink>
                     </div>
                     <div className='modal-nav_content mobile-products'>
-                        <NavLink className="nav_content" to="/products" onClick={() => setMobileNav(!mobileNav)}>Products</NavLink>
+                        <NavLink className="nav_content" to="/services" onClick={() => setMobileNav(!mobileNav)}>Services</NavLink>
                     </div>
                     <div className='modal-nav_content mobile-about'>
                         <NavLink className="nav_content" to="/about" onClick={() => setMobileNav(!mobileNav)}>About Us</NavLink>
@@ -72,13 +70,13 @@ const Nav = () => {
         return (
             <nav className="container nav_container">
                 <div className="nav_logo">
-                    <NavLink className="" to="/" end>
+                    <Link className="" to="/" end>
                         <img alt="logo" className="logo" src={logo}/>
-                    </NavLink>
+                    </Link>
                 </div>
                 <div className="nav_contents">
                     <NavLink className="nav_content" to="/">HOME</NavLink>
-                    <NavLink className="nav_content" to="/products">PRODUCTS</NavLink>
+                    <NavLink className="nav_content" to="/services">SERVICES</NavLink>
                     <NavLink className="nav_content" to="/about">ABOUT US</NavLink>
                 </div>
             </nav>

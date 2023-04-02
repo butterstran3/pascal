@@ -2,38 +2,22 @@
 
 .info_container {
     width: 100vw;
-    height: 360px;
-}
-
-.intro_info {
-    width: 100%;
-    height: 360px;
-    background: var(--color-white);
-    text-align: center;
-    color: var(--color-primary);
-    font-size: 1.5rem;
-    padding: 8% 5%;
-    line-height: 2.5rem;
-}
-
-.product_info {
-    width: 100%;
-    height: 250px;
-    background: var(--color-primary);
-    color: var(--color-white);
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.product_info h1 {
-    font-weight: 400;
-    padding-bottom: 1%;
-}
-
-.product_info p {
-    font-weight: 200;
+.intro_info {
+    width: 100%;
+    height: 360px;
+    background: var(--color-primary);
+    text-align: center;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    padding: 8% 5%;
+    line-height: 2.5rem;
 }
 
 .footer-discord_btn {
@@ -46,7 +30,7 @@
     transition: var(--transition);
     align-items: center;
     justify-content: center;
-    background: var(--color-white);
+    background: #fbfbfb;
     font-size: 1.8rem;
     text-align: center;
 }
@@ -58,65 +42,30 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .product_heading h1 {
-        font-size: 2rem;
+    .info_container {
+        height: 380px;
     }
 
     .intro_info {
-        padding: 4% 5% 7% 5%;
+        padding: 0 6% 0 6%;
+        height: 500px;
     }
 
     .intro_info p {
         padding-top: 15%;
-    }
-
-    .product_info {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
-
-    .product {
-        height: 20vh;
-        width: 80vw;
-        text-align: center;
-        padding-left: 8%;
-    }
-
-    .product_heading {
-        width: 80vw;
-    }
-
-    .product_description {
-        width: 80vw;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .info_container {
+        height: 350px;
+    }
+
+    .intro_info {
+        height: 500px;
+    }
 
     .intro_info p {
         padding-top: 10%;
-    }
-
-    .product_info {
-        display: flex;
-        flex-direction: column;
-        height: 120vh;
-        padding-top: 15%;
-    }
-
-    .product {
-        height: 40vh;
-        width: 80vw;
-        text-align: center;
-        padding-left: 8%;
-    }
-
-    .product_heading {
-        width: 80vw;
-    }
-
-    .product_description {
-        width: 80vw;
     }
 }

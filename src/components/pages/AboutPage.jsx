@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../about/About';
 import Footer from '../footer/Footer';
+import Header from '../header/Header';
 import { useEffect } from 'react';
 
 const AboutPage = () => {
@@ -11,8 +12,11 @@ const AboutPage = () => {
         };
     }, []);
 
+    const title = "We love to munch on peanuts.";
+
     return (
         <>
+            <Header title={title}/>
             <About />
             <Footer />
         </>

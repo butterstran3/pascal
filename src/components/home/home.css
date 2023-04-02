@@ -2,7 +2,7 @@
 
 .homepage_container {
     width: 100%;
-    height: 95vh;
+    height: 92.7vh;
 }
 
 .home_text {
@@ -21,7 +21,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 2% 0% 2% 0%;
-    width: 30%; /* HOW TO CHANGE WIDTH OF THE BUTTON WITHOUT COOKING IT @@JIMBO*/
+    width: 220px; /* HOW TO CHANGE WIDTH OF THE BUTTON WITHOUT COOKING IT @@JIMBO*/
 }
 
 .home-text_container {
@@ -40,12 +40,19 @@
         height: 92.8vh;
     }
     
-    .text_container {
-        padding: 25% 5% 5% 5%;
+    .home_text h1 {
+        font-size: 55px;
     }
 
-    .discord-btn_container {
-        padding: 4% 5%;
+    .home-text_container {
+        float: left;
+        width: 65%;
+        height: 100%;
+        padding: 45% 0 0 10%;
+    }
+
+    .home_button a {
+        width: 220px;
     }
 }
 
@@ -53,40 +60,19 @@
     .homepage_container {
         height: 93.6vh;
     }
-
-    .home_container h1 {
-        font-size: 2.5rem;
-    }
     
-    .text_container {
-        padding: 35% 5% 5% 5%;
-        line-height: 3rem;
+    .home_text h1 {
+        font-size: 40px;
     }
 
-    .type-writer_container {
-        padding: 0 5%;
+    .home-text_container {
+        width: 65%;
+        height: 100%;
+        float: left;
+        padding: 55% 0 0 7%;
     }
 
-    .type-writer_container p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .homepage_container h1 {
-        font-size: 2rem;
-    }
-    
-    .text_container {
-        padding: 20% 5% 5% 5%;
-        line-height: 3rem;
-    }
-
-    .type-writer_container {
-        padding: 5%;
-    }
-
-    .type-writer_container p {
-        font-size: 1rem;
+    .home_button a {
+        width: 200px;
     }
 }
