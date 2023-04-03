@@ -20,7 +20,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $49
+                                $69
                             </h2>
                             <h3>
                                 /per week
@@ -43,7 +43,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $190
+                                $269
                             </h2>
                             <h3>
                                 /per month
@@ -51,10 +51,11 @@ const Product = () => {
                         </div>
                         <ul>
                             <li>10% discount</li>
+                            <li>On average, our members take 3 days to pay for their monthly</li>
                         </ul>
-                        <div className="coming-soon_container">
-                            <p>COMING SOON</p>
-                        </div>
+                        {/* <div className="coming-soon_container">
+                            <p>On average, our members take 3 days to pay for their monthly.</p>
+                        </div> */}
                         <div className="product-btn_container">
                             <button className="product_btn">CHOOSE</button>
                         </div>
@@ -65,7 +66,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $2000
+                                $2999
                             </h2>
                             <h3>
                                 /per year
@@ -73,10 +74,8 @@ const Product = () => {
                         </div>
                         <ul>
                             <li>20% discount</li>
+                            <li>On average, our members take 1 month to pay for their yearly.</li>
                         </ul>
-                        <div className="coming-soon_container">
-                            <p>COMING SOON</p>
-                        </div>
                         <div className="product-btn_container">
                             <button className="product_btn">CHOOSE</button>
                         </div>

@@ -21,26 +21,26 @@ const Functions = () => {
             <div className='steps_container'>
                 <div className='steps_content'>
                     <div className='step_box'>
-                        <h2>Sign up to a free trial</h2>
+                        <h2>Join our free trial</h2>
                         <p>Sign up to a 3 day free trial to see how the service works and start receiving the same tips our members receive. You will also receive free educational resources and strategies to maximise first deposit bonus offers.</p>
                     </div>
                 </div>
                 <div className='steps_content'>
                     <div className='step_box'>
-                        <h2>Identify the EV</h2>
+                        <h2>Find the EV</h2>
                         <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
                     </div>
                 </div>
                 <div className='steps_content'>
                     <div className='step_box'>
-                        <h2>Receive alerts via Discord</h2>
-                        <p>When an edge of over 30% (profit on turnover expectancy) is identified, Edge Alerter will let you know the bookmaker, race/game, and horse/team to back, and you simply place the bets.</p>
+                        <h2>Receive alerts through Discord</h2>
+                        <p>Subscribe to a bookmaker/sport you're interested in to receive the most up-to-date EV identified through our alogirthm. Simply subsribe and bet.</p>
                     </div>
                 </div>
                 <div className='steps_content'>
                     <div className='step_box'>
-                        <h2>Improve your betting IQ</h2>
-                        <p>In addition to the algorithm generated tips, we provide you with a library of calculators, articles, guides, and insights to give you the tools to fish for yourself. All at no extra cost!</p>
+                        <h2>Develop your betting IQ</h2>
+                        <p>For no extra cost, we provide a plethora of guides, betting calculators and insights for you to improve your betting IQ.</p>
                     </div>
                 </div>
             </div>

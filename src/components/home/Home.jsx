@@ -8,10 +8,10 @@ const Home = () => {
   
     useEffect(() => {
       const interval = setInterval(() => {
-        if (index === "Bet faster, smarter".length) {
+        if (index === "Bet faster, smarter.".length) {
           clearInterval(interval);
         }
-        setText(text + "Bet faster, smarter".charAt(index));
+        setText(text + "Bet faster, smarter.".charAt(index));
         setIndex(index + 1);
       }, 70);
       return () => clearInterval(interval);
