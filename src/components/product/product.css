@@ -117,9 +117,8 @@
     cursor: pointer;
 }
 
-.coming-soon_container {
-    font-weight: 600;
-    padding-bottom: 9.5rem;
+ul.coming_soon {
+    padding: 1rem 1rem 8.5em 1rem;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

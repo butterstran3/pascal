@@ -49,13 +49,10 @@ const Product = () => {
                                 /per month
                             </h3>
                         </div>
-                        <ul>
+                        <ul className="coming_soon">
                             <li>10% discount</li>
                             <li>On average, our members take 3 days to pay for their monthly</li>
                         </ul>
-                        {/* <div className="coming-soon_container">
-                            <p>On average, our members take 3 days to pay for their monthly.</p>
-                        </div> */}
                         <div className="product-btn_container">
                             <button className="product_btn">CHOOSE</button>
                         </div>
@@ -72,7 +69,7 @@ const Product = () => {
                                 /per year
                             </h3>
                         </div>
-                        <ul>
+                        <ul className="coming_soon">
                             <li>20% discount</li>
                             <li>On average, our members take 1 month to pay for their yearly.</li>
                         </ul>
