@@ -20,7 +20,6 @@ const ProductPage = () => {
             <Header title={title}/>
             <Services />
             <Form />
-            <Footer />
         </>
     )
 }

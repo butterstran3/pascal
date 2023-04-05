@@ -26,7 +26,7 @@ const Form = () => {
                 <input className='name-input' type='text' name='name' placeholder='Your Name'/>
                 <input className='email-input' type='text' name='email' placeholder='Your Email'/>
                 <textarea name='message' rows='7' placeholder='Your Message'></textarea>
-                <button type='submit' className='btn'>SUBMIT</button>                    
+                <button type='submit' className='btn'>Submit</button>                    
             </form>
         </div>
     )

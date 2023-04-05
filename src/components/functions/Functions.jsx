@@ -9,10 +9,7 @@ const Functions = () => {
             </div>
             <div className='functions_content'>
                 <p>
-                    Our independent, quantitative approach to EV betting allows us to outsmart the bookies consistently.<br />
-                    <span>Boasting a proven track record and delivering a 30% turnover, our advanced algorithm alerts you to lucrative EV bets, ensuring you stay ahead in the game and consistently generate profit.</span><br />
-                    <span>Unlike bookie affliated tipping services, we focus on delivering +EV bets and educating our members to find their own +EV.</span><br />
-                    <span>Beat the bookies today and experience the winning edge with our data-driven, unbiased system!</span><br />
+                    Our independent, quantitative approach to EV betting allows us to outsmart the bookies consistently. Boasting a proven track record and delivering a 30% turnover, our advanced algorithm alerts you to lucrative EV bets, ensuring you stay ahead in the game and consistently generate profit. Unlike bookie affliated tipping services, we focus on delivering +EV bets and educating our members to find their own +EV. Beat the bookies today and experience the winning edge with our data-driven, unbiased system!
                 </p>
             </div>
             <div className='steps_heading'>
