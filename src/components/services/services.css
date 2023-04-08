@@ -45,6 +45,10 @@
     font-size: 2rem;
 }
 
+.service p {
+    text-align: justify;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .service-list_container {
