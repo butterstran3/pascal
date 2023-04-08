@@ -12,7 +12,7 @@ const AboutPage = () => {
         };
     }, []);
 
-    const title = "We love to munch on peanuts.";
+    const title = "A little about us.";
 
     return (
         <>

@@ -13,10 +13,9 @@ const About = () => {
                     </div>
                     <div className='info_content'>
                         <p>
-                            At Pascal Research our mission is to empower the bettors like ourselves with the tools to be a Winning bettor.
-                            We are two computer science professionals with a love for betting. Our goal now is to enable to public with the tools that we've
-                            created for ourselves. <br />
-                            <span>Think of some nonsense @bho</span>
+                            At Pascal Research our mission is to empower the bettors like ourselves with the tools to be a winning bettor.
+                            We are two computer science professionals from Optiver and Tesla sharing our passion for betting. We want to public
+                            to use the tools that we created for ourselves to bet the bookies. <br />
                         </p>
                     </div>
                 </div>

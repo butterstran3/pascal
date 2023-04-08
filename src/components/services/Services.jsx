@@ -5,9 +5,9 @@ const Servcies = () => {
     return (
         <div className='services_background'>
             <div className='services_container'>
-                <div className='service_heading'>
+                {/* <div className='service_heading'>
                     <h1>Services Available</h1>
-                </div>
+                </div> */}
                 <div className='service-list_container'>
                     <div className='service_content'>
                         <div className='service_box'>

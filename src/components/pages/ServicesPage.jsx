@@ -13,7 +13,7 @@ const ProductPage = () => {
         };
     }, []);
 
-    const title = "We also love to munch on cashews."
+    const title = "Our Additional Services."
 
     return (
         <>
