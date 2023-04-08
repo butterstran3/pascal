@@ -13,8 +13,7 @@ const Servcies = () => {
                         <div className='service_box'>
                             <h2>Bespoke  Software Solutions</h2>
                             <p>
-                                Our innovative in-house gambling software, designed to help you find the most expected value while aligning with your individual risk appetite and parameters. Utilizing advanced algorithms and real-time data analysis, our software is able to quickly identify and evaluate the most favorable odds and lines from a wide range of bookmakers and exchanges, taking into account your unique preferences and requirements. <br />
-                                <span>Our software offers a user-friendly interface and customizable settings, allowing you to easily set your risk tolerance and establish your desired parameters. Whether you're a seasoned professional or a novice gambler, our software takes the guesswork out of betting and gives you the edge you need to succeed while adhering to your own comfort level.</span>
+                                Our innovative in-house gambling software, designed to help you find the most expected value while aligning with your individual risk appetite and parameters. Utilizing advanced algorithms and real-time data analysis, our software is able to quickly identify and evaluate the most favorable odds and lines from a wide range of bookmakers and exchanges, taking into account your unique preferences and requirements. Our software offers a user-friendly interface and customizable settings, allowing you to easily set your risk tolerance and establish your desired parameters. Whether you're a seasoned professional or a novice gambler, our software takes the guesswork out of betting and gives you the edge you need to succeed while adhering to your own comfort level.
                             </p>
                         </div>
                     </div>
