@@ -11,7 +11,22 @@ const Home = () => {
         if (index === "Bet faster, smarter.".length) {
           clearInterval(interval);
         }
-        setText(text + "Bet faster, smarter.".charAt(index));
+        const wordToDisplay = "Bet faster, smarter.".slice(0, index + 1);
+        const words = wordToDisplay.split(' ');
+        const lastWord = words[words.length - 1];
+        // const lastWord = "smarter.";
+        setText(
+          words
+            .map((word, i) => (
+              <span
+                key={i}
+                style={word === lastWord ? { color: 'var(--color-variant)' } : {}}
+              >
+                {word}
+                {i !== words.length - 1 && ' '}
+              </span>
+            ))
+        );
         setIndex(index + 1);
       }, 70);
       return () => clearInterval(interval);
