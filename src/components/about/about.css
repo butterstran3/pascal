@@ -47,7 +47,8 @@
     line-height: 1.5rem;
     font-size: 1.5rem;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
+    padding: 0 6rem;
 }
 
 .mission_container {

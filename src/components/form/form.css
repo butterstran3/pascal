@@ -78,6 +78,17 @@ textarea:focus {
     border-color: transparent;
 }
 
+.name-input::placeholder {
+    font-family: 'Lato', sans-serif;
+}
+
+.email-input::placeholder {
+    font-family: 'Lato', sans-serif;
+}
+
+.message-input::placeholder {
+    font-family: 'Lato', sans-serif;
+}
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
