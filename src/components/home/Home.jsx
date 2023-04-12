@@ -14,7 +14,6 @@ const Home = () => {
         const wordToDisplay = "Bet faster, smarter.".slice(0, index + 1);
         const words = wordToDisplay.split(' ');
         const lastWord = words[words.length - 1];
-        // const lastWord = "smarter.";
         setText(
           words
             .map((word, i) => (

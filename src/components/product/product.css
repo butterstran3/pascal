@@ -35,7 +35,7 @@
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, #00305B 0%, rgba(35, 108, 173, 0.72) 60%, rgba(187, 223, 255, 0.45) 100%);
+    background: var(--color-primary);
     background-size: cover;
     background-attachment: fixed;
 }

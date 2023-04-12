@@ -16,7 +16,7 @@ const Product = () => {
                 <div className="product_table">
                     <article className="product">
                         <h1>
-                            Tier 1
+                            Weekly
                         </h1>
                         <div className="product_price">
                             <h2>
@@ -39,7 +39,7 @@ const Product = () => {
                     {/* @@JIMBO BLUR OUT/SHADE THE WHOLE CONTAINER */}
                     <article className="product"> 
                         <h1>
-                            Tier 2
+                            Monthly
                         </h1>
                         <div className="product_price">
                             <h2>
@@ -59,7 +59,7 @@ const Product = () => {
                     </article>
                     <article className="product">
                         <h1>
-                            Tier 3
+                            Yearly
                         </h1>
                         <div className="product_price">
                             <h2>

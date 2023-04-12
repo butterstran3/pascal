@@ -9,7 +9,7 @@
     flex-direction: column;
     height: 250px;
     color: var(--color-white);
-    background: var(--color-primary);
+    background: var(--color-variant);
     align-items: center;
     justify-content: center;
 }
@@ -24,13 +24,13 @@
     transition: var(--transition);
     align-items: center;
     justify-content: center;
-    background: var(--color-primary);
+    background: var(--color-variant);
     font-size: 2rem;
     text-align: center;
 }
 
 .email_btn:hover {
-    color: var(--color-variant);
+    color: var(--color-primary);
 }
 
 /*HOW TO ALIGN THE DISCORD LOGO WITH THE TEXT @@JIMBO*/

@@ -11,7 +11,7 @@
     position: relative;
     justify-content: center;
     padding: 3rem 0 4rem 0;
-    background: #fbfbfb;
+    background: var(--color-primary);
 }
 
 .form_title {
@@ -21,7 +21,7 @@
 .form_title h1 {
     font-size: 3rem;
     font-family: 'Lato', sans-serif;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 form {
