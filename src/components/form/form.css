@@ -73,7 +73,7 @@ textarea:focus {
 }
 
 .btn:hover {
-    background: #144272;
+    background: var(--color-variant);
     color: white;
     border-color: transparent;
 }

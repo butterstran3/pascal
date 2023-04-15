@@ -34,6 +34,10 @@
     float: right;
 }
 
+.down-btn_container a {
+    color: white;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .homepage_container {
@@ -58,7 +62,7 @@
 
 @media screen and (max-width: 600px) {
     .homepage_container {
-        height: 93.6vh;
+        height: 91.4vh;
     }
     
     .home_text h1 {

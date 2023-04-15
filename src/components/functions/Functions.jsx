@@ -1,5 +1,9 @@
 import React from 'react';
 import './functions.css';
+import TRIAL from '../../assets/trial.png';
+import EV from '../../assets/ev.png';
+import ALERT from '../../assets/alert.png';
+import IQ from '../../assets/iq.png';
 
 const Functions = () => {
     return (
@@ -20,7 +24,7 @@ const Functions = () => {
             <div className='steps_container'>
                 <div className='steps_content'>
                     <div className='image_container'>
-                        <img className='step_image'></img>
+                        <img className='step_image' alt='trial_img' src={TRIAL}></img>
                     </div>
                     <div className='step_box'>
                         <h2>Join our free trial</h2>
@@ -29,7 +33,7 @@ const Functions = () => {
                 </div>
                 <div className='steps_content'>
                     <div className='image_container'>
-                        <img className='step_image'></img>
+                        <img className='step_image' alt='ev_img' src={EV}></img>
                     </div>
                     <div className='step_box'>
                         <h2>Find the EV</h2>
@@ -38,7 +42,7 @@ const Functions = () => {
                 </div>
                 <div className='steps_content'>
                     <div className='image_container'>
-                        <img className='step_image'></img>
+                        <img className='step_image' alt='alert_img' src={ALERT}></img>
                     </div>
                     <div className='step_box'>
                         <h2>Receive alerts through Discord</h2>
@@ -47,7 +51,7 @@ const Functions = () => {
                 </div>
                 <div className='steps_content'>
                     <div className='image_container'>
-                        <img className='step_image'></img>
+                        <img className='step_image' alt='iq_img' src={IQ}></img>
                     </div>
                     <div className='step_box'>
                         <h2>Develop your betting IQ</h2>

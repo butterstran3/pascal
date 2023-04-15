@@ -47,9 +47,7 @@ body.contact {
 }
 
 body.about {
-    background-image: url('./assets/city_background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: var(--color-white);
 }
 
 body.testimonials {
@@ -65,9 +63,7 @@ body.faqs {
 }
 
 body.services {
-    background-image: url('./assets/city_background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: var(--color-white);
 }
 
 /* GENERAL STYLES */

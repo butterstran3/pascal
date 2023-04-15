@@ -20,54 +20,31 @@
     padding: 2rem 15rem;
     line-height: 2.5rem;
     align-items: center;
-}
-
-.footer-discord_btn {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    color: var(--color-primary);
-    border-radius: 2rem;
-    cursor: pointer;
-    transition: var(--transition);
-    align-items: center;
     justify-content: center;
-    background: #fbfbfb;
-    font-size: 1.8rem;
-    text-align: center;
-}
-
-.footer-discord_btn:hover {
-    color: var(--color-white);
-    background: #5865F2;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .info_container {
-        height: 380px;
+        height: 300px;
     }
 
     .intro_info {
-        padding: 0 6% 0 6%;
-        height: 500px;
-    }
-
-    .intro_info p {
-        padding-top: 15%;
+        padding: 0 2rem;
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .info_container {
-        height: 350px;
+        height: 300px;
     }
 
     .intro_info {
-        height: 500px;
+        height: 300px;
     }
 
     .intro_info p {
-        padding-top: 10%;
+        font-size: 1rem;
     }
 }

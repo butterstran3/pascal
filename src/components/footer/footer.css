@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     height: 250px;
-    color: var(--color-white);
-    background: var(--color-variant);
+    color: var(--color-primary);
+    background: var(--color-white);
     align-items: center;
     justify-content: center;
 }
@@ -18,19 +18,19 @@
     width: 60px;
     height: 60px;
     display: flex;
-    color: var(--color-white);
+    color: var(--color-primary);
     border-radius: 2rem;
     cursor: pointer;
     transition: var(--transition);
     align-items: center;
     justify-content: center;
-    background: var(--color-variant);
+    background: var(--color-white);
     font-size: 2rem;
     text-align: center;
 }
 
 .email_btn:hover {
-    color: var(--color-primary);
+    color: var(--color-variant);
 }
 
 /*HOW TO ALIGN THE DISCORD LOGO WITH THE TEXT @@JIMBO*/

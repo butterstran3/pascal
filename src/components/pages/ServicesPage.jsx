@@ -13,7 +13,7 @@ const ProductPage = () => {
         };
     }, []);
 
-    const title = "Our Additional Services."
+    const title = "Additional Services."
 
     return (
         <>
