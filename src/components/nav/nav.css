@@ -7,6 +7,7 @@
     padding: 0.5rem;
     justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 
 .nav_logo {
@@ -36,13 +37,8 @@ a {
     color: var(--color-primary);
 }
 
-.nav_contents a:hover {
-    text-decoration: underline;
-}
-
 .active {
     color: var(--color-variant);
-    text-decoration: underline;
 }
 
 .modal_container {
@@ -53,6 +49,7 @@ a {
     background: var(--color-white);
     flex-direction: column;
     z-index: 5;
+    top: 0;
 }
 
 .mobile-pages_container {
