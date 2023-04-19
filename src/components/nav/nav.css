@@ -90,7 +90,7 @@ a {
     }
     
     .btn_container {
-        padding: 0.8% 4% 0 0;
+        padding: 0.3rem 4% 0 0;
     }
     
     .mobile-nav_contents {
@@ -101,7 +101,7 @@ a {
     
     .mobile-nav_container {
         display: flex;
-        height: 7.2vh;
+        height: 7.2%;
         justify-content: space-between;
         padding-top: 1rem;
         width: 100%;
@@ -143,7 +143,7 @@ a {
     }
     
     .btn_container {
-        padding: 3% 5% 0 0;
+        padding: 0.7rem 5% 0 0;
     }
     
     .mobile-nav_contents {
