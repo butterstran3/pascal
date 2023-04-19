@@ -8,6 +8,8 @@
     padding: 1rem 8rem 6rem 8rem;
     font-family: 'Lato', sans-serif;
     background: var(--color-white);
+    margin: 0 auto;
+    max-width: 1800px;
 }
 
 .about_section {

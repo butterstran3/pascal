@@ -12,7 +12,7 @@
 }
 
 .product_background {
-    background: #393E46;
+    background: var(--color-primary);
 }
 
 .product_heading h1 {
@@ -38,6 +38,10 @@
     background: var(--color-primary);
     background-size: cover;
     background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .product_table {
