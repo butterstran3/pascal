@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 <div className='about_content'>
                     <p>
-                        Primarily focusing on racing, our last-minute horse racing betting algorithm will utilize a wide range of bookmakers and exchanges to determine the best bet for our users for each bookie or to decide to skip the race altogether. By utilizing multiple sources, we are able to compare odds and lines from different bookmakers in real-time, and find the best value for our users at the last second before the race starts. Users will receive notifications of what we deem as the best bet with the most favorable odds for each bookie just before the race starts, allowing them to place their bets with confidence and potentially maximizing their returns. Please note that this service is for entertainment purposes only and is not intended to be used as financial advice. Users should always gamble responsibly and within their means.
+                    At the forefront of Racing and Sports, we specialize in curating +EV bets by meticulously comparing multiple sources. Our commitment to providing value through data-driven insights restores balance to the asymmetric betting landscape, empowering our clients with strategic advantage and unrivaled precision.
                     </p>
                 </div>
             </div>

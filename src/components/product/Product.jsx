@@ -20,7 +20,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $69
+                                $19
                             </h2>
                             <h3>
                                 /per week
@@ -33,7 +33,9 @@ const Product = () => {
                             <li>Community of dedicated punters</li>
                         </ul>
                         <div className="product-btn_container">
-                            <button className="product_btn">CHOOSE</button>
+                            <a href="https://launchpass.com/pascalresearch/weekly-membership" target="_blank">
+                                <button className="product_btn">CHOOSE</button>
+                            </a>
                         </div>
                     </article>
                     {/* @@JIMBO BLUR OUT/SHADE THE WHOLE CONTAINER */}
@@ -43,7 +45,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $269
+                                $69
                             </h2>
                             <h3>
                                 /per month
@@ -54,7 +56,9 @@ const Product = () => {
                             <li>On average, our members take 3 days to pay for their monthly</li>
                         </ul>
                         <div className="product-btn_container">
-                            <button className="product_btn">CHOOSE</button>
+                            <a href="https://launchpass.com/pascalresearch/monthly-membership" target="_blank">
+                                <button className="product_btn">CHOOSE</button>
+                            </a>
                         </div>
                     </article>
                     <article className="product">
@@ -63,7 +67,7 @@ const Product = () => {
                         </h1>
                         <div className="product_price">
                             <h2>
-                                $2999
+                                $839
                             </h2>
                             <h3>
                                 /per year
@@ -74,7 +78,7 @@ const Product = () => {
                             <li>On average, our members take 1 month to pay for their yearly.</li>
                         </ul>
                         <div className="product-btn_container">
-                            <button className="product_btn">CHOOSE</button>
+                            <button className="product_btn">CONTACT US</button>
                         </div>
                     </article>
                 </div>

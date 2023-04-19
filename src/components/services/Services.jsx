@@ -19,8 +19,8 @@ const Servcies = () => {
                     </div>
                     <div className='alt-service_content'>
                         <div className='alt-service_box'>
-                            <h2>Modelling Service (Coming Soon)</h2>
-                            <p>We also provide an option for users to set up a budget and subscribe to automated betting, which will automatically place the bet for them on their behalf.</p>
+                            <h2>Modelling Service</h2>
+                            <p>Our advanced modeling service utilizes complex algorithms to assess historical data and various factors for horse and dog races. We provide the most advantageous bet based on odds and bookmaker lines.</p>
                             <div className='notice_container'>
                                 <a className='notice_btn'>COMING SOON</a>
                             </div>
@@ -31,7 +31,7 @@ const Servcies = () => {
                     </div>
                     <div className='service_content'>
                         <div className='service_box'>
-                            <h2>Automated Betting Service (Coming Soon)</h2>
+                            <h2>Automated Betting Service</h2>
                             <p>We also provide an option for users to set up a budget and subscribe to automated betting, which will automatically place the bet for them on their behalf.</p>
                             <div className='notice_container'>
                                 <a className='notice_btn'>COMING SOON</a>
