@@ -80,15 +80,25 @@
 }
 
 .service-image_container {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     width: 850px;
     height: 375px;
 }
 
+.service_image {
+    max-width:100%;
+    max-height:100%;
+}
+
 .alt-service-image_container {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     width: 850px;
     height: 375px;
+}
+
+.alt-service_image {
+    max-width:100%;
+    max-height:100%;
 }
 
 .notice_container {

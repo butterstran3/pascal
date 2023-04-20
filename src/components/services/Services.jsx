@@ -1,5 +1,8 @@
 import React from 'react';
 import './services.css';
+import BESPOKE from '../../assets/bespoke.jpg';
+import MODEL from '../../assets/model.png';
+import AUTOMATED from '../../assets/automation.jpg';
 
 const Servcies = () => {
     return (
@@ -14,7 +17,7 @@ const Servcies = () => {
                             </p>
                         </div>
                         <div className='service-image_container'>
-                            <img className='service_image'></img>
+                            <img className='service_image' alt='bespoke_img' src={BESPOKE}></img>
                         </div>
                     </div>
                     <div className='alt-service_content'>
@@ -26,7 +29,7 @@ const Servcies = () => {
                             </div>
                         </div>
                         <div className='alt-service-image_container'>
-                            <img className='alt-service_image'></img>
+                            <img className='alt-service_image' alt='model_img' src={MODEL}></img>
                         </div>
                     </div>
                     <div className='service_content'>
@@ -38,7 +41,7 @@ const Servcies = () => {
                             </div>
                         </div>
                         <div className='service-image_container'>
-                            <img className='service_image'></img>
+                            <img className='service_image' alt='automated_img' src={AUTOMATED}></img>
                         </div>
                     </div>
                 </div>
