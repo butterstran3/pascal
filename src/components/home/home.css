@@ -42,7 +42,7 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .homepage_container {
-        height: 87vh;
+        height: 94.2vh;
     }
     
     .home_text h1 {

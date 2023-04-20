@@ -1,6 +1,5 @@
 import React from "react";
 import './footer.css';
-import { SiDiscord } from 'react-icons/si';
 import { HiOutlineMail } from 'react-icons/hi';
 
 const Footer = () => {
@@ -16,7 +15,7 @@ const Footer = () => {
             <h1>Get in touch</h1>
             <h3>Email:</h3>
             <p>support@pascalresearch.io</p>
-            <a className="email_btn" href="mailto:support@pascalresearch.io"><HiOutlineMail /></a>
+            <a className="email_btn" href="mailto:contact@mispriced.io"><HiOutlineMail /></a>
         </div>
     )
 }

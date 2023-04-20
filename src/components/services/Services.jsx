@@ -25,7 +25,7 @@ const Servcies = () => {
                             <h2>Modelling Service</h2>
                             <p>Our advanced modeling service utilizes complex algorithms to assess historical data and various factors for horse and dog races. We provide the most advantageous bet based on odds and bookmaker lines.</p>
                             <div className='notice_container'>
-                                <a className='notice_btn'>COMING SOON</a>
+                                <button className='notice_btn'>COMING SOON</button>
                             </div>
                         </div>
                         <div className='alt-service-image_container'>
@@ -37,7 +37,7 @@ const Servcies = () => {
                             <h2>Automated Betting Service</h2>
                             <p>We also provide an option for users to set up a budget and subscribe to automated betting, which will automatically place the bet for them on their behalf.</p>
                             <div className='notice_container'>
-                                <a className='notice_btn'>COMING SOON</a>
+                                <button className='notice_btn'>COMING SOON</button>
                             </div>
                         </div>
                         <div className='service-image_container'>

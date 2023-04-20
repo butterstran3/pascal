@@ -33,8 +33,8 @@ const Product = () => {
                             <li>Community of dedicated punters</li>
                         </ul>
                         <div className="product-btn_container">
-                            <a href="https://launchpass.com/pascalresearch/weekly-membership" target="_blank">
-                                <button className="product_btn">CHOOSE</button>
+                            <a className="product_btn" href="https://launchpass.com/pascalresearch/weekly-membership">
+                                CHOOSE
                             </a>
                         </div>
                     </article>
@@ -56,8 +56,8 @@ const Product = () => {
                             <li>On average, our members take 3 days to pay for their monthly</li>
                         </ul>
                         <div className="product-btn_container">
-                            <a href="https://launchpass.com/pascalresearch/monthly-membership" target="_blank">
-                                <button className="product_btn">CHOOSE</button>
+                            <a className="product_btn" href="https://launchpass.com/pascalresearch/weekly-membership">
+                                CHOOSE
                             </a>
                         </div>
                     </article>
@@ -78,15 +78,12 @@ const Product = () => {
                             <li>On average, our members take 1 month to pay for their yearly.</li>
                         </ul>
                         <div className="product-btn_container">
-                            <button className="product_btn">CONTACT US</button>
+                            <a className="product_btn" href="mailto:contact@mispriced.io">CONTACT US</a>
                         </div>
                     </article>
                 </div>
             </div>
         </div>
-
-
-        // @@JIMBO need to add another div here to talk about other products or make product a dropdown in nav bar with coming soon hovers
     )
 }
 

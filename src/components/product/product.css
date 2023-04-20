@@ -42,6 +42,7 @@
     align-items: center;
     max-width: 2000px;
     margin: 0 auto;
+    padding-bottom: 6rem;
 }
 
 .product_table {
@@ -50,11 +51,11 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 5%;
-    gap: 50px;
+    gap: 70px;
 }
 
 .product {
-    width: 25%;
+    width: 350px;
     display: flex;
     flex-direction: column;
     background: var(--color-white);
@@ -113,6 +114,10 @@
     font-family: 'Inter', sans-serif;
     border-radius: 2rem;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
 }
 
 .product_btn:hover {
@@ -122,7 +127,7 @@
 }
 
 ul.coming_soon {
-    padding: 1rem 1rem 8.5em 1rem;
+    padding: 1rem 1rem 9.5rem 1rem;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
