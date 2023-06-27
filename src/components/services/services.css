@@ -82,6 +82,8 @@
 .service-image_container {
     width: 850px;
     height: 375px;
+    display: flex;
+    align-items: center;
 }
 
 .service_image {
@@ -93,6 +95,8 @@
 .alt-service-image_container {
     width: 850px;
     height: 375px;
+    display: flex;
+    align-items: center;
 }
 
 .alt-service_image {

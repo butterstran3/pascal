@@ -11,7 +11,7 @@ const Home = () => {
         if (index === "Bet faster, smarter.".length) {
           clearInterval(interval);
         }
-        const wordToDisplay = "Bet faster, smarter.".slice(0, index + 1);
+        const wordToDisplay = "Bet faster, smarter.".slice(0, index);
         const words = wordToDisplay.split(' ');
         const lastWord = words[words.length - 1];
         setText(
@@ -36,7 +36,6 @@ const Home = () => {
             <div className="home-text_container">
                 <div className="home_text">
                     <h1>{text}</h1>
-                    {/* <h1 id="colored_text">smarter.</h1> */}
                 </div>
                 <div className="home_button">
                     <a className="discord_btn" href="https://discord.gg/qxHEtGrT4A" >

@@ -14,7 +14,7 @@ const Header = (props) => {
         setIndex(index + 1);
       }, 50);
       return () => clearInterval(interval);
-    }, [index]);
+    }, [index, text, props.title]);
 
     return (
         <div className='header_container'>
